@@ -11,7 +11,7 @@ library(RMySQL)
 
 #As suggested in the assignment description Date and Time Variables (character type) are converted to Date and Time
 
-	hpc$DateTime <- strptime(paste(hpc$Date, hpc$Time) format = "%d/%m/%Y %H:%M:%S")
+	hpc$DateTime <- strptime(paste(hpc$Date, hpc$Time), format = "%d/%m/%Y %H:%M:%S"))
 
 #Open a png file in the workdirectory, create a graph and save the file
 
